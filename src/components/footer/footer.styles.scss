@@ -1,0 +1,29 @@
+.fh2{
+  //possible bug on device orientation
+  width: 15%;padding: 50px 30px 30px 30px;
+}
+.connect{
+  //possible bug on device orientation
+  width: 15%;padding: 50px 30px 30px 30px;
+}
+.footer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  
+  
+    .options {
+      width: 60%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    }
+  }
